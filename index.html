@@ -21,13 +21,6 @@
       <p id="sottotitolo"> ACCADEMIA DI BELLE ARTI </p>
     </div>
    </div>
-   <div id="bottoncino" onclick="showCookie()">
-    <button type="button" class="btn btn-light">cookie</button>
-   </div>
-    <div id="cookie" onclick="hideCookie()">
-       <b>Questo sito web utilizza cookie</b><br>
-Questo sito web utilizza i cookie per migliorare la tua esperienza di navigazione. Utilizzando il nostro sito web acconsenti a tutti i cookie in conformità con la nostra policy per i cookie.
-    </div>
    <div id="spazio">
      <div id="logomio"> 
        <img src="immagini/logo-mio.png" style="width: 400px; margin:auto;">
@@ -139,6 +132,17 @@ Questo sito web utilizza i cookie per migliorare la tua esperienza di navigazion
        </td>
      </tr>
    </table>
+   <div id="bottoncinocookie">
+      <div id="cookie" >
+        <b id="perchiudere" onclick="hideCookie()">X</b>
+         QUESTO SITO WEB UTILIZZA COOKIE<br><br>
+Questo sito web utilizza i cookie per migliorare la tua esperienza di navigazione.<br>
+           Utilizzando il nostro sito web acconsenti a tutti i cookie in conformità con la nostra policy per i cookie.
+      </div>
+      <div id="bottoncino" onclick="showCookie()">
+        <i class="fas fa-cookie-bite" style="font-size: 40px; color: black; background-color: hsl(0, 130%, 68%); border-radius:50px; padding: 5px"></i>
+      </div>
+   </div>
    <footer>
      <div class="fot">
        <p3>© Sella srl - PI 01176320032<br>Privacy Policy (ita eng 隐私政策) | Cookie Policy (ita eng 政策)<br>ACME Accademia di Belle Arti Europea dei Media</p3>
