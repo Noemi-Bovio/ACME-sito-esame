@@ -9,3 +9,7 @@ function hideCookie() {
       let cookie = document.querySelector('#cookie');
       cookie.style = "display:none;";
     }
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
