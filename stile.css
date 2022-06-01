@@ -52,13 +52,10 @@ body {
 }
 #spazio{
   padding-top: 130px;
-  min-width: 1001px;
-  max-width: 1200px;
   margin: auto;
 }
 #logomio{
   margin:auto;
-  width: 200px;
 }
 #box1{
   min-width: 1001px;
