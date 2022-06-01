@@ -1,9 +1,7 @@
-#font {
+body {
   font-family: 'Poppins', sans-serif;
-}
-.background {
-  margin: 0px;
-  background-image: src "immagini/novara-panorama.jpeg";
+  margin: auto;
+  background-image: url("https://www.opinovaravco.it/wp-content/uploads/novara-panorama.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
