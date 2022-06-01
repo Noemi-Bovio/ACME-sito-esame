@@ -58,6 +58,7 @@ body {
 }
 #logomio{
   margin:auto;
+  width: 200px;
 }
 #box1{
   min-width: 1001px;
