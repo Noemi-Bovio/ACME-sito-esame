@@ -26,9 +26,7 @@ body {
   margin-top: 15px;
 }
 #intestazione{
-  align: center;
-  margin-left: 500px;
-  position: absolute;
+  position: fixed-top;
   display: inline-block;
 }
 #logo{
