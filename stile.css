@@ -51,8 +51,10 @@ body {
   border-radius: 30px;
 }
 #spazio{
-  padding-top: 130px;
+  padding-top: 110px;
   margin: auto;
+  min-width: 1001px;
+  max-width: 1200px;
 }
 #logomio{
   margin:auto;
