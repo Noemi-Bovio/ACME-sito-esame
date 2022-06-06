@@ -20,16 +20,14 @@ body {
   display: inline-block;
 }
 .bandiere {
-  width: 60px;
-  height: 40px;
-  margin-left: 10px;
+  float: left;
+  margin-left:50px;
   margin-top: 15px;
 }
 #intestazione{
-  align: center;
-  margin-left: 500px;
-  position: absolute;
-  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin-left:-110px
 }
 #logo{
   width: auto;
@@ -72,6 +70,7 @@ body {
   min-width: 1001px;
   max-width: 500px;
   margin:auto;
+  text-align: center;
 }
 #box1{
   min-width: 1001px;
