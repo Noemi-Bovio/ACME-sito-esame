@@ -153,7 +153,7 @@ a:link{
   text-decoration: none;
 }
 a:hover{
-  color: black;
+  color: black !important;
   text-decoration: none;
   text-shadow: 0px 0px 10px white;
 }
