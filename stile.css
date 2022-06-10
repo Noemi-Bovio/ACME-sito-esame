@@ -210,7 +210,7 @@ footer{
   margin: 10px auto;
 }
 #social{
-  height: 40px;
+  img-height: 30px;
   margin: 0px 40px 10px 0px;
   display: inline-block;
 }
