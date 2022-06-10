@@ -24,9 +24,9 @@ body {
   margin-top: 15px;
 }
 #intestazione{
-  text-align: center;
+  content-align: right;
   width: 100%;
-  padding-right:10px;
+  padding-right:20px;
 }
 #logo{
   width: auto;
@@ -37,7 +37,6 @@ body {
   color: white;
   margin-top: -7px;
   color: white;
-  text-align: center;
 }
 @media screen and (max-width: 585px) {
 
