@@ -26,7 +26,7 @@ body {
 #intestazione{
   text-align: center;
   width: 100%;
-  content-align: right;
+  padding-right:10px;
 }
 #logo{
   width: auto;
