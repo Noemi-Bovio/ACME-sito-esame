@@ -39,6 +39,17 @@ body {
   color: white;
   text-align: center;
 }
+@media screen and (max-width: 585px) {
+
+    .bandiere {
+        display: inline-block;
+        margin: 10px auto;
+    }
+
+    .headline {
+        text-align: center;
+    }
+}
 #bottoncinocookie {
   position: fixed;
   bottom: 10px;
