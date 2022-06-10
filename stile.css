@@ -204,8 +204,9 @@ td{
   margin: 0px 10px;
 }
 #map {
-    width: 50%;
-    height: 300px;
+  width: auto;
+  height: 200px;
+  margin-left:50px
 }
 footer{
   background-color: black;
