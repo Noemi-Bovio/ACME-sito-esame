@@ -234,3 +234,81 @@ p3{
 #freccina{
     text-shadow: 0px 0px 10px hsl(0, 130%, 68%);
 }
+.panel-container {
+  margin:50px auto auto auto;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.60);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  font-size: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  max-width: 400px;
+}
+
+.panel-container strong {
+  line-height: 20px;
+}
+
+.ratings-container {
+  display: flex;
+  margin: 20px 0;
+}
+
+.rating {
+  flex: 1;
+  cursor: pointer;
+  padding: 20px;
+  margin: 10px 5px;
+}
+
+.rating:hover,
+.rating.active {
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0 0 10px white;
+}
+
+.rating img {
+  width: 40px;
+}
+
+.rating small {
+  color: white;
+  display: inline-block;
+  margin: 10px 0 0;
+}
+
+.rating:hover small,
+.rating.active small {
+  color: black !important;
+  text-decoration: none;
+  text-shadow: 0px 0px 10px white;
+}
+
+.btn {
+  background-color: hsl(0, 130%, 68%);
+  color: white;
+  border: 0;
+  border-radius: 0px 15px;
+  padding: 12px 30px;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.fa-heart {
+  color: red;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
