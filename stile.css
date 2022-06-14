@@ -117,7 +117,7 @@ body {
    border-radius:0px 70px 70px 70px;
 }
 p{
-  margin-top:5px;
+  margin-top:-5px;
 }
 a:link{
   color:white;
