@@ -44,17 +44,15 @@ body {
   color: white;
 }
 @media screen and (max-width: 585px) {
-
-    .bandiere {
-        display: inline-block;
-        margin: 10px 10px;
-    }
-
-    #intestazione {
-        margin-left: 650px;
-        width: 50%;
-        padding-right: 20px;
-    }
+.bandiere {
+  display: inline-block;
+  margin: 10px 10px;
+ }
+#intestazione {
+  margin-left: 650px;
+  width: 50%;
+  padding-right: 20px;
+ }
 }
 #bottoncinocookie {
   position: fixed;
@@ -103,22 +101,22 @@ body {
   color: white;
 }
 .box1{
-   background-color: black;
-   padding: 30px;
-   color: white;
-   min-width: 1001px;
-   max-width: 1200px;
-   margin: 20px auto 0px auto;
-   border-radius:70px 0px 70px 70px;
+  background-color: black;
+  padding: 30px;
+  color: white;
+  min-width: 1001px;
+  max-width: 1200px;
+  margin: 20px auto 0px auto;
+  border-radius:70px 0px 70px 70px;
 }
 .box2{
-   background-color: black;
-   padding: 30px;
-   color: white;
-   min-width: 1001px;
-   max-width: 1200px;
-   margin: 20px auto 0px auto;
-   border-radius:0px 70px 70px 70px;
+  background-color: black;
+  padding: 30px;
+  color: white;
+  min-width: 1001px;
+  max-width: 1200px;
+  margin: 20px auto 0px auto;
+  border-radius:0px 70px 70px 70px;
 }
 a:link{
   color:white;
@@ -148,8 +146,8 @@ h2{
   margin-top: -70px;
 }
 .elemento2 {
-    margin:auto;
-    display: inline-block;
+  margin:auto;
+  display: inline-block;
   }
 h1{
   color:white;
@@ -157,24 +155,80 @@ h1{
   margin-top: 50px;
   text-shadow: 0px 0px 10px black;
 }
-table{
-   background-color: black;
-   padding: 30px;
-   color: white;
-   width: 1200px;
-   min-width: 1001px;
-   max-width: 1200px;
-   margin: 20px auto 0px auto; 
+.dipartimenti{
+  background-color: black;
+  padding: 30px;
+  color: white;
+  text-align:center;
+  width: 1200px;
+  min-width: 1001px;
+  max-width: 1200px;
+  margin: 20px auto 0px auto; 
 }
 h3{
   text-align: center;
 }
-td{
-  width: 500px !important;
-  min-width: 200px;
-  max-width: 500px;
+.scuole{
+  margin: 0px auto;
+}
+#pittura{
+  border-radius:70px 0px 70px 70px;
+  border: 3px solid #FF0000;
+  text-align: center;
+  padding: 20px;
+  height:auto;
+  width: 500px;
+  margin:auto 5px auto auto;
+  display: inline-block;
+}
+#grafica{
+  border-radius:0px 70px 70px 70px;
+  border: 3px solid #29ABE2;
+  text-align: center;
+  padding: 20px;
+  height:auto;
+  width: 500px;
+  margin:auto auto auto 5px; 
+  display: inline-block;
+}
+#scenografia{
+  border-radius:70px 0px 70px 70px;
+  border: 3px solid #F7931E;
+  text-align: center;
   padding: 10px;
-  margin: 0px 10px;
+  height:auto;
+  width: 350px;
+  margin:auto 5px auto auto;
+  display: inline-block;
+}
+#impresa{
+  border-radius:0px 0px 70px 70px;
+  border: 3px solid #FCEE21;
+  text-align: center;
+  padding: 8px;
+  height:auto;
+  width: 350px;
+  margin:auto 5px;
+  display: inline-block;
+}
+#tecnologie{
+  border-radius:0px 70px 70px 70px;
+  border: 3px solid #FF00FF;
+  text-align: center; 
+  padding: 10px;
+  height:auto;
+  width: 350px;
+  margin:auto auto auto 5px;
+  display: inline-block;
+}
+#comunicazione{
+  border-radius:0px 0px 70px 70px;
+  border: 3px solid #AA6FFF;
+  text-align: center;
+  padding: 10px;
+  height:auto;
+  width: 400px;
+  margin:auto;
 }
 #map {
   width: auto;
@@ -203,19 +257,19 @@ footer{
   display: inline-block;
 }
 p3{
-    max-width: 500px;
-    font-size: 12px;
+  max-width: 500px;
+  font-size: 12px;
 }
 .top {
-    color: white;
-    background-color: none;
-    position: fixed;
-    bottom: 20px;
-    right: 40px;
-    text-align: center;
+  color: white;
+  background-color: none;
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  text-align: center;
 }
 #freccina{
-    text-shadow: 0px 0px 10px hsl(0, 130%, 68%);
+  text-shadow: 0px 0px 10px hsl(0, 130%, 68%);
 }
 .panel-container {
   margin:50px auto auto auto;
