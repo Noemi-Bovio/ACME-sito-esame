@@ -111,9 +111,8 @@ body {
   background-color: black;
   padding: 30px;
   color: white;
-  min-width: 1001px;
-  max-width: 1200px;
-  margin: 20px auto 0px auto;
+  text-align: center;
+  heigh: auto;
   border-radius:70px 0px 70px 70px;
 }
 .box2{
