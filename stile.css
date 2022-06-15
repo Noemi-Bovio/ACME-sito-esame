@@ -55,7 +55,6 @@ body {
     .bandiere {
       width: 60px;
       height: 40px;
-      margin: auto;
     }
 }
 #bottoncinocookie {
@@ -81,12 +80,10 @@ body {
 #spazio{
   padding-top: 110px;
   margin: auto;
-  min-width: 1001px;
-  max-width: 1200px;
+  min-width: 1260px;
+  max-width: 100%;
 }
 #logomio{
-  min-width: 1001px;
-  max-width: 500px;
   margin:auto;
   text-align: center;
 }
