@@ -69,6 +69,12 @@ body {
     background-color: black;
     border-radius: 150px;
   }
+  .elemento1{
+    margin: auto;
+  }
+  .elemento2 {
+    margin:auto;
+  }
 }
 #bottoncinocookie {
   position: fixed;
@@ -155,7 +161,6 @@ h2{
 .elemento1{
   display: inline-block;
   width: 50%;
-  margin-top: -70px;
 }
 .elemento2 {
   margin:auto;
