@@ -55,13 +55,6 @@ body {
     width: 60px;
     height: 40px;
   }
-  #box1{
-    width: 300px;
-  }
-  .box1{
-    height: auto;
-    width: 300px
-  }
 }
 #bottoncinocookie {
   position: fixed;
