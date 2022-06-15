@@ -5,6 +5,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
+  background-size: cover;
   background-position: center;
 }
 #headline{
@@ -43,15 +44,19 @@ body {
   color: white;
 }
 @media screen and (max-width: 585px) {
-.bandiere {
-  display: inline-block;
-  margin: 10px 10px;
- }
-#intestazione {
-  margin-left: 650px;
-  width: 50%;
-  padding-right: 20px;
- }
+    #headline {
+      text-align: center;
+      padding: 10px;
+    }
+    #intestazione{
+      text-align: center;
+      margin: auto;
+    }
+    .bandiere {
+      width: 60px;
+      height: 40px;
+      margin: auto;
+    }
 }
 #bottoncinocookie {
   position: fixed;
