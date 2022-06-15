@@ -66,7 +66,8 @@ body {
   background-color: black;
   margin: 2px solid white;
   width: 200px;
-  padding: 15px
+  padding: 15px;
+  display:none;
 }
 #perchiudere{
   font-size: 15px;
