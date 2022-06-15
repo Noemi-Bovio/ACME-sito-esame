@@ -55,6 +55,16 @@ body {
     width: 60px;
     height: 40px;
   }
+  #videoyt{
+    border-radius:70px 0px 70px 70px;
+    width: 340px;
+    height: 200px;
+  }
+  #fotoclasse{
+    height:200px;
+    margin-right: 50px;
+    border-radius:0px 70px 70px 70px;
+  }
 }
 #bottoncinocookie {
   position: fixed;
@@ -102,10 +112,13 @@ body {
 }
 #videoyt{
   border-radius:70px 0px 70px 70px;
-  width: 100%;
+  width: 530px;
   height: 315px;
-  padding: 3px;
-  frameborder: 0px;
+}
+#fotoclasse{
+  height:300px;
+  margin-right: 50px;
+  border-radius:0px 70px 70px 70px;
 }
 .box1{
   background-color: black;
@@ -304,6 +317,10 @@ h3{
     width: 280px;
     margin: auto;
     display: block;
+  }
+  .fot{
+    display: inline-block;
+    margin: auto;
   }
 }
 #map {
