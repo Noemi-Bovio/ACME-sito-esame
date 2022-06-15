@@ -55,46 +55,6 @@ body {
     width: 60px;
     height: 40px;
   }
-
-#scenografia{
-  border-radius:70px 0px 70px 70px;
-  border: 3px solid #F7931E;
-  text-align: center;
-  padding: 10px;
-  height:auto;
-  width: 350px;
-  margin:auto 5px auto auto;
-  display: inline-block;
-}
-#impresa{
-  border-radius:0px 0px 70px 70px;
-  border: 3px solid #FCEE21;
-  text-align: center;
-  padding: 8px;
-  height:auto;
-  width: 350px;
-  margin:auto 5px;
-  display: inline-block;
-}
-#tecnologie{
-  border-radius:0px 70px 70px 70px;
-  border: 3px solid #FF00FF;
-  text-align: center; 
-  padding: 10px;
-  height:auto;
-  width: 350px;
-  margin:auto auto auto 5px;
-  display: inline-block;
-}
-#comunicazione{
-  border-radius:0px 0px 70px 70px;
-  border: 3px solid #AA6FFF;
-  text-align: center;
-  padding: 10px;
-  height:auto;
-  width: 400px;
-  margin:auto;
-}
 }
 #bottoncinocookie {
   position: fixed;
@@ -269,14 +229,22 @@ h3{
   margin:auto;
 }
 @media screen and (max-width: 600px) {
-  .dipartimenti
-    #pittura{
+  .dipartimenti{
+    background-color: black;
+    padding: 30px;
+    color: white;
+    text-align:center;
+    min-width: 100px;
+    max-width: 1200px;
+    margin: 20px 5px; 
+  }
+  #pittura{
     border-radius:70px 70px 0px 0px;
     border: 3px solid #FF0000;
     text-align: center;
     padding: 20px;
     height:auto;
-    width: 500px;
+    width: 280px;
     margin: auto;
     display: block;
   }
@@ -286,8 +254,48 @@ h3{
     text-align: center;
     padding: 20px;
     height:auto;
-    width: 500px;
-    margin:5px auto auto auto;
+    width: 280px;
+    margin: auto;
+    display: block;
+  }
+  #scenografia{
+    border-radius:70px 0px 70px 70px;
+    border: 3px solid #F7931E;
+    text-align: center;
+    padding: 10px;
+    height:auto;
+    width: 280px;
+    margin: auto;
+    display: block;
+  }
+  #impresa{
+    border-radius:0px 0px 70px 70px;
+    border: 3px solid #FCEE21;
+    text-align: center;
+    padding: 8px;
+    height:auto;
+    width: 280px;
+    margin: auto;
+    display: block;
+  }
+  #tecnologie{
+    border-radius:0px 70px 70px 70px;
+    border: 3px solid #FF00FF;
+    text-align: center; 
+    padding: 10px;
+    height:auto;
+    width: 280px;
+    margin: auto;
+    display: block;
+  }
+  #comunicazione{
+    border-radius:0px 0px 70px 70px;
+    border: 3px solid #AA6FFF;
+    text-align: center;
+    padding: 10px;
+    height:auto;
+    width: 280px;
+    margin: auto;
     display: block;
   }
 }
