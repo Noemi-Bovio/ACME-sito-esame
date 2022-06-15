@@ -44,17 +44,25 @@ body {
   color: white;
 }
 @media screen and (max-width: 585px) {
-    #headline {
-      text-align: center;
-      padding: 15px;
-    }
-    #intestazione{
-      text-align: center;
-    }
-    .bandiere {
-      width: 60px;
-      height: 40px;
-    }
+  #headline {
+    text-align: center;
+    padding: 15px;
+  }
+  #intestazione{
+    text-align: center;
+  }
+  .bandiere {
+    width: 60px;
+    height: 40px;
+  }
+  #box1{
+    max-width: 100px;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+    background-color: rgba(0, 0, 0, 0.60);
+    border-radius: 150px;
+  }
 }
 #bottoncinocookie {
   position: fixed;
@@ -87,10 +95,8 @@ body {
   text-align: center;
 }
 #box1{
-  min-width: 1001px;
   max-width: 1200px;
   margin: auto;
-  background-color: none;
   text-align: center;
   margin-top: 80px;
   background-color: rgba(0, 0, 0, 0.60);
