@@ -101,15 +101,7 @@ body {
   color: white;
 }
 @media screen and (max-width: 600px) {
-  #fotoclasse{
-    width: 100%;
-    border-radius:0px 70px 70px 70px;
-  }
-  #videoyt{
-    border-radius:70px 0px 70px 70px;
-    width: 100%;
-    height: 200px;
-  }
+
 }
 #videoyt{
   border-radius:70px 0px 70px 70px;
@@ -251,6 +243,15 @@ h3{
   margin:auto;
 }
 @media screen and (max-width: 600px) {
+  #fotoclasse{
+    width: 100%;
+    border-radius:0px 70px 70px 70px;
+  }
+  #videoyt{
+    border-radius:70px 0px 70px 70px;
+    width: 100%;
+    height: 200px;
+  }
   .dipartimenti{
     background-color: black;
     padding: 30px;
