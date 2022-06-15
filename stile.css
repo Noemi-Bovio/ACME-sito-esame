@@ -108,6 +108,8 @@ body {
   min-height: 200px;
 }
 #fotoclasse{
+  max-width: 530px;
+  min-width: 340px;
   max-height:300px;
   min-height: 200px;
   margin-right: 50px;
