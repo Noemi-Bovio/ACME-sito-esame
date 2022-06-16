@@ -256,9 +256,9 @@ h3{
     padding: 30px;
     color: white;
     text-align:center;
-    min-width: 100px;
+    min-width: 300px;
     max-width: 1200px;
-    margin: 20px 5px; 
+    margin: 20px auto; 
   }
   #pittura{
     border-radius:70px 70px 0px 0px;
