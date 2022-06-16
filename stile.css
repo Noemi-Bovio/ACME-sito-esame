@@ -88,6 +88,12 @@ body {
   hwight:auto;
 }
 #logomio{
+  min-width: 300px;
+  max-width: 500px;
+  margin:auto;
+  text-align: center;
+}
+#imglogomio{
   margin:auto;
   width: 400px;
   height:auto;
@@ -143,13 +149,14 @@ body {
     max-width: 100%;
     hwight:auto;
   }
-  #logomio{
+  #imglogomio{
     margin:auto;
     width: 200px;
     height:auto;
   }
   #fotoclasse{
     width: 100%;
+    height: 200px;
     border-radius:0px 70px 70px 70px;
   }
   #videoyt{
@@ -286,7 +293,7 @@ h3{
   width: 400px;
   margin:auto;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .elemento1{
     display: block;
     margin:auto;
