@@ -141,12 +141,7 @@ body {
   margin: 20px auto 0px auto;
   border-radius:0px 70px 70px 70px;
 }
-@media screen and (max-width: 1240px) {
-  .tastino{
-    display: inline-block;
-    padding: 40px 15px 15px 15px;
-    color: white;
-  }
+@media screen and (max-width: 600px) {
   #spazio{
     padding-top: 220px;
     margin: auto;
@@ -168,6 +163,13 @@ body {
     border-radius:70px 0px 70px 70px;
     width: 100%;
     height: 200px;
+  }
+}
+@media screen and (max-width: 1240px) {
+  .tastino{
+    display: inline-block;
+    padding: 40px 15px 15px 15px;
+    color: white;
   }
   .box1{
     background-color: black;
