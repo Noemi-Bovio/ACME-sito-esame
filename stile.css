@@ -46,14 +46,18 @@ body {
 @media screen and (max-width: 600px) {
   #headline {
     text-align: center;
-    padding: 15px;
+    padding: 10px;
   }
   #intestazione{
     text-align: center;
+    margin:auto;
+    float:none;
   }
   .bandiere {
     width: 60px;
     height: 40px;
+    float:none;
+    margin: 15px 0px 15px 20px;
   }
 }
 #bottoncinocookie {
@@ -79,12 +83,14 @@ body {
 #spazio{
   padding-top: 180px;
   margin: auto;
-  min-width: 100px;
+  min-width: 300px;
   max-width: 100%;
+  hwight:auto;
 }
 #logomio{
   margin:auto;
-  text-align: center;
+  width: 400px;
+  height:auto;
 }
 #box1{
   min-width: 100px;
@@ -130,6 +136,18 @@ body {
   border-radius:0px 70px 70px 70px;
 }
 @media screen and (max-width: 1240px) {
+  #spazio{
+    padding-top: 220px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 100%;
+    hwight:auto;
+  }
+  #logomio{
+    margin:auto;
+    width: 200px;
+    height:auto;
+  }
   #fotoclasse{
     width: 100%;
     border-radius:0px 70px 70px 70px;
