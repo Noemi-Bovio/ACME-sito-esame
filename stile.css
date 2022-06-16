@@ -187,7 +187,7 @@ h2{
 .elemento2 {
   margin:auto;
   display: inline-block;
-  }
+}
 h1{
   color:white;
   text-align: center;
@@ -269,6 +269,15 @@ h3{
   margin:auto;
 }
 @media screen and (max-width: 600px) {
+  .elemento1{
+    display: block;
+    margin:auto;
+    width:100%;
+  }
+  .elemento2 {
+    margin:auto;
+    display: block;
+  }  
   .dipartimenti{
     background-color: black;
     padding: 30px;
@@ -371,14 +380,6 @@ footer{
   font-size: 12px;
 }
 @media screen and (max-width: 1000px) {
-  .elemento1{
-    display: block;
-    margin:auto;
-  }
-.elemento2 {
-    margin:auto;
-    display: block;
-  }
   #map {
     width: auto;
     height: 200px;
