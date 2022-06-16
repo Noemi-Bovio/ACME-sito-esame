@@ -371,6 +371,14 @@ footer{
   font-size: 12px;
 }
 @media screen and (max-width: 1000px) {
+  .elemento1{
+    display: block;
+    margin:auto;
+  }
+.elemento2 {
+    margin:auto;
+    display: block;
+  }
   #map {
     width: auto;
     height: 200px;
