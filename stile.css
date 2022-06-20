@@ -145,10 +145,26 @@ body {
   border-radius:0px 70px 70px 70px;
 }
 @media screen and (max-width: 1240px) {
+  #box1{
+    min-width: 100px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+    background-color: rgba(0, 0, 0, 0.60);
+    border-radius: 150px;
+    padding: 30px
+  }
   .tastino{
     display: inline-block;
-    padding: 40px 15px 15px 15px;
+    padding: 10px;
     color: white;
+  }
+  .tastino i{
+    font-size:25px;
+  }
+  .tastino h3{
+    font-size: 10px;
   }
   .box1{
     background-color: black;
