@@ -43,23 +43,6 @@ body {
   margin-top: -7px;
   color: white;
 }
-@media screen and (max-width: 600px) {
-  #headline {
-    text-align: center;
-    padding: 10px;
-  }
-  #intestazione{
-    text-align: center;
-    margin:auto;
-    float:none;
-  }
-  .bandiere {
-    width: 60px;
-    height: 40px;
-    float:none;
-    margin: 15px 0px 15px 20px;
-  }
-}
 #bottoncinocookie {
   position: fixed;
   bottom: 10px;
@@ -125,26 +108,22 @@ body {
   margin-right: 50px;
   border-radius:0px 70px 70px 70px;
 }
-.box1{
-  background-color: black;
-  padding: 30px;
-  color: white;
-  min-width: 100px;
-  max-width: 1200px;
-  margin: 20px auto 0px auto;
-  heigh: auto;
-  border-radius:70px 0px 70px 70px;
-}
-.box2{
-  background-color: black;
-  padding: 30px;
-  color: white;
-  min-width: 100px;
-  max-width: 1200px;
-  margin: 20px auto 0px auto;
-  border-radius:0px 70px 70px 70px;
-}
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 600px) {
+  #headline {
+    text-align: center;
+    padding: 10px;
+  }
+  #intestazione{
+    text-align: center;
+    margin:auto;
+    float:none;
+  }
+  .bandiere {
+    width: 60px;
+    height: 40px;
+    float:none;
+    margin: 15px 0px 15px 20px;
+  }
   #box1{
     min-width: 100px;
     max-width: 1200px;
@@ -166,6 +145,27 @@ body {
   .tastino h3{
     font-size: 10px;
   }
+}
+.box1{
+  background-color: black;
+  padding: 30px;
+  color: white;
+  min-width: 100px;
+  max-width: 1200px;
+  margin: 20px auto 0px auto;
+  heigh: auto;
+  border-radius:70px 0px 70px 70px;
+}
+.box2{
+  background-color: black;
+  padding: 30px;
+  color: white;
+  min-width: 100px;
+  max-width: 1200px;
+  margin: 20px auto 0px auto;
+  border-radius:0px 70px 70px 70px;
+}
+@media screen and (max-width: 1240px) {
   .box1{
     background-color: black;
     padding: 20px;
