@@ -444,9 +444,6 @@ footer{
   margin: 0px 40px 10px 0px;
   display: inline-block;
 }
-.social:hover{
-  box-shadow: 0px 0px 10px white;
-}
 #yt{
   height: 40px;
   margin: 0px 0px 10px 0px;
