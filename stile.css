@@ -4,7 +4,7 @@ body {
   background-image: url("immagini/fabio-viale.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100%;
+  background-size: 99%;
   background-size: cover;
   background-position: center;
 }
@@ -39,8 +39,6 @@ body {
   margin-top: 10px;
 }
 #sottotitolo {
-  color: white;
-  margin-top: -7px;
   color: white;
 }
 #bottoncinocookie {
