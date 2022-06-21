@@ -39,7 +39,7 @@ ratingsContainer.addEventListener('click', (e) => {
 
 sendBtn.addEventListener('click', (e) => {
     panel.innerHTML = `
-        <i class="fas fa-parachute-box" style="font-size:50px"></i>
+        <i class="fas fa-parachute-box" style="font-size:50px; margin-bottom:10px;"></i>
         <strong>Risposta in volo!</strong>
         <br>
         <strong>Feedback: ${selectedRating}</strong>
@@ -51,4 +51,5 @@ function removeActive() {
     for(let i = 0; i < ratings.length; i++) {
         ratings[i].classList.remove('active')
     }
+}
 }
