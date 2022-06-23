@@ -554,8 +554,3 @@ footer{
 .btn:active {
   transform: scale(0.98);
 }
-// Schermi medio-piccoli (almeno 576px)
-@media (min-width: 576px) { ... }
-// Schermi medi (almeno 768px) @media (min-width: 768px) { ... }
-// Schermi grandi (almeno 992px) @media (min-width: 992px) { ... }
-// Schermi molto grandi (almeno 1200px) @media (min-width: 1200px) { ... }
