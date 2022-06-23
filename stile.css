@@ -399,75 +399,6 @@ footer{
     width: 500px;
     height: 315px;
   }
-  .dipartimenti{
-    background-color: black;
-    padding: 30px;
-    color: white;
-    text-align:center;
-    min-width: 300px;
-    max-width: 1200px;
-    margin: 20px auto; 
-  }
-  #pittura{
-    border-radius:70px 70px 0px 0px;
-    border: 3px solid #FF0000;
-    text-align: center;
-    padding: 20px;
-    height:auto;
-    width: 280px;
-    margin: auto auto 5px auto;
-    display: block;
-  }
-  #grafica{
-    border-radius:0px 0px 70px 70px;
-    border: 3px solid #29ABE2;
-    text-align: center;
-    padding: 20px;
-    height:auto;
-    width: 280px;
-    margin: 5px auto auto auto;
-    display: block;
-  }
-  #scenografia{
-    border-radius:70px 70px 0px 0px;
-    border: 3px solid #F7931E;
-    text-align: center;
-    padding: 10px;
-    height:auto;
-    width: 280px;
-    margin: auto auto 5px auto;
-    display: block;
-  }
-  #impresa{
-    border-radius:0px 0px 0px 0px;
-    border: 3px solid #FCEE21;
-    text-align: center;
-    padding: 8px;
-    height:auto;
-    width: 280px;
-    margin: 5px auto;
-    display: block;
-  }
-  #tecnologie{
-    border-radius:0px 0px 70px 70px;
-    border: 3px solid #FF00FF;
-    text-align: center; 
-    padding: 10px;
-    height:auto;
-    width: 280px;
-    margin: 5px auto auto auto;
-    display: block;
-  }
-  #comunicazione{
-    border-radius:0px 0px 70px 70px;
-    border: 3px solid #AA6FFF;
-    text-align: center;
-    padding: 10px;
-    height:auto;
-    width: 280px;
-    margin: auto;
-    display: block;
-  }
 }
 
 // Schermi medi (almeno 768px)
@@ -563,7 +494,76 @@ footer{
   .elemento2 {
     margin:auto;
     display: block;
-  }  
+  }
+  .dipartimenti{
+    background-color: black;
+    padding: 30px;
+    color: white;
+    text-align:center;
+    min-width: 300px;
+    max-width: 1200px;
+    margin: 20px auto; 
+  }
+  #pittura{
+    border-radius:70px 70px 0px 0px;
+    border: 3px solid #FF0000;
+    text-align: center;
+    padding: 20px;
+    height:auto;
+    width: 280px;
+    margin: auto auto 5px auto;
+    display: block;
+  }
+  #grafica{
+    border-radius:0px 0px 70px 70px;
+    border: 3px solid #29ABE2;
+    text-align: center;
+    padding: 20px;
+    height:auto;
+    width: 280px;
+    margin: 5px auto auto auto;
+    display: block;
+  }
+  #scenografia{
+    border-radius:70px 70px 0px 0px;
+    border: 3px solid #F7931E;
+    text-align: center;
+    padding: 10px;
+    height:auto;
+    width: 280px;
+    margin: auto auto 5px auto;
+    display: block;
+  }
+  #impresa{
+    border-radius:0px 0px 0px 0px;
+    border: 3px solid #FCEE21;
+    text-align: center;
+    padding: 8px;
+    height:auto;
+    width: 280px;
+    margin: 5px auto;
+    display: block;
+  }
+  #tecnologie{
+    border-radius:0px 0px 70px 70px;
+    border: 3px solid #FF00FF;
+    text-align: center; 
+    padding: 10px;
+    height:auto;
+    width: 280px;
+    margin: 5px auto auto auto;
+    display: block;
+  }
+  #comunicazione{
+    border-radius:0px 0px 70px 70px;
+    border: 3px solid #AA6FFF;
+    text-align: center;
+    padding: 10px;
+    height:auto;
+    width: 280px;
+    margin: auto;
+    display: block;
+  }
 }
 
 // Schermi molto grandi (almeno 1200px)
