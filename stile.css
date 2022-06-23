@@ -352,7 +352,7 @@ footer{
 }
 
 // Schermi medio-piccoli (almeno 576px)
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
   #headline {
     text-align: center;
     padding: 10px;
@@ -471,7 +471,7 @@ footer{
 }
 
 // Schermi medi (almeno 768px)
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   #headline {
     text-align: center;
     padding: 10px;
@@ -554,7 +554,7 @@ footer{
 }
 
 // Schermi grandi (almeno 992px)
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
   .elemento1{
     display: block;
     margin:auto;
@@ -567,7 +567,7 @@ footer{
 }
 
 // Schermi molto grandi (almeno 1200px)
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .box1{
     background-color: black;
     padding: 20px;
