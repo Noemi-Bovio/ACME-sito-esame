@@ -202,13 +202,13 @@ body {
     height:auto;
   }
   #fotoclasse{
-    width: 100%;
+    width: 80%;
     height: 200px;
     border-radius:0px 70px 70px 70px;
   }
   #videoyt{
     border-radius:70px 0px 70px 70px;
-    width: 100%;
+    width: 80%;
     height: 200px;
   }
   .box1{
@@ -342,7 +342,7 @@ h3{
   width: 400px;
   margin:auto;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1213px) {
   .elemento1{
     display: block;
     margin:auto;
@@ -453,7 +453,7 @@ footer{
   max-width: 500px;
   font-size: 12px;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
   #map {
     width: auto;
     height: 200px;
