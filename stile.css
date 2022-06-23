@@ -351,116 +351,8 @@ footer{
   transform: scale(0.98);
 }
 
-// Schermi medio-piccoli (almeno 576px)
-@media screen and (min-width: 576px) {
-  #headline {
-    text-align: center;
-    padding: 10px;
-  }
-  #intestazione{
-    text-align: center;
-    margin:auto;
-    float:none;
-  }
-  .bandiere {
-    width: 60px;
-    height: 40px;
-    float:none;
-    margin: 15px 0px 15px 20px;
-  }
-  #box1{
-    min-width: 100px;
-    max-width: 1200px;
-    margin: auto;
-    text-align: center;
-    margin-top: 80px;
-    background-color: rgba(0, 0, 0, 0.60);
-    border-radius: 150px;
-    padding: 30px
-  }
-  .tastino{
-    display: inline-block;
-    padding: 10px;
-    color: white;
-  }
-  .tastino i{
-    font-size:25px;
-  }
-  .tastino h3{
-    font-size: 10px;
-  }
-  #fotoclasse{
-    width: 100%;
-    height: 200px;
-    border-radius:0px 70px 70px 70px;
-  }
-  #videoyt{
-    border-radius:70px 0px 70px 70px;
-    width: 500px;
-    height: 315px;
-  }
-}
-
-// Schermi medi (almeno 768px)
-@media screen and (min-width: 768px) {
-  #headline {
-    text-align: center;
-    padding: 10px;
-  }
-  #intestazione{
-    text-align: center;
-    margin:auto;
-    float:none;
-  }
-  .bandiere {
-    width: 60px;
-    height: 40px;
-    float:none;
-    margin: 15px 0px 15px 20px;
-  }
-  #box1{
-    min-width: 100px;
-    max-width: 1200px;
-    margin: auto;
-    text-align: center;
-    margin-top: 80px;
-    background-color: rgba(0, 0, 0, 0.60);
-    border-radius: 150px;
-    padding: 30px
-  }
-  .tastino{
-    display: inline-block;
-    padding: 10px;
-    color: white;
-  }
-  .tastino i{
-    font-size:25px;
-  }
-  .tastino h3{
-    font-size: 10px;
-  }
-  #spazio{
-    padding-top: 220px;
-    margin: auto;
-    min-width: 300px;
-    max-width: 100%;
-    hwight:auto;
-  }
-  #imglogomio{
-    margin:auto;
-    width: 200px;
-    height:auto;
-  }
-  #fotoclasse{
-    width: 100%;
-    height: 200px;
-    border-radius:0px 70px 70px 70px;
-  }
-  #videoyt{
-    border-radius:70px 0px 70px 70px;
-    width: 100%;
-    height: 200px;
-  }
+// Schermi molto grandi (almeno 1200px)
+@media screen and (min-width: 1200px) {
   .box1{
     background-color: black;
     padding: 20px;
@@ -470,7 +362,7 @@ footer{
     margin: 20px 5px 0px 5px;
     heigh: auto;
     border-radius:70px 0px 70px 70px;
-    text-align:left;
+    text-align:center;
   }
   .box2{
     background-color: black;
@@ -480,7 +372,26 @@ footer{
     max-width: 1200px;
     margin: 20px 5px 0px 5px;
     border-radius:0px 70px 70px 70px;
-    text-align:left;
+    text-align:center;
+  }
+  #fotoclasse{
+    width: 100%;
+    height: 500px;
+    border-radius:0px 70px 70px 70px;
+  }
+  #map {
+    width: auto;
+    height: 200px;
+    margin:auto
+  }
+  .fot{
+    display: block;
+    margin: 10px auto;
+  }
+  #testofooter{
+    max-width: 500px;
+    font-size: 12px;
+    margin:auto;
   }
 }
 
@@ -565,9 +476,66 @@ footer{
     display: block;
   }
 }
-
-// Schermi molto grandi (almeno 1200px)
-@media screen and (min-width: 1200px) {
+// Schermi medi (almeno 768px)
+@media screen and (min-width: 768px) {
+  #headline {
+    text-align: center;
+    padding: 10px;
+  }
+  #intestazione{
+    text-align: center;
+    margin:auto;
+    float:none;
+  }
+  .bandiere {
+    width: 60px;
+    height: 40px;
+    float:none;
+    margin: 15px 0px 15px 20px;
+  }
+  #box1{
+    min-width: 100px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+    background-color: rgba(0, 0, 0, 0.60);
+    border-radius: 150px;
+    padding: 30px
+  }
+  .tastino{
+    display: inline-block;
+    padding: 10px;
+    color: white;
+  }
+  .tastino i{
+    font-size:25px;
+  }
+  .tastino h3{
+    font-size: 10px;
+  }
+  #spazio{
+    padding-top: 220px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 100%;
+    hwight:auto;
+  }
+  #imglogomio{
+    margin:auto;
+    width: 200px;
+    height:auto;
+  }
+  #fotoclasse{
+    width: 100%;
+    height: 200px;
+    border-radius:0px 70px 70px 70px;
+  }
+  #videoyt{
+    border-radius:70px 0px 70px 70px;
+    width: 100%;
+    height: 200px;
+  }
   .box1{
     background-color: black;
     padding: 20px;
@@ -577,7 +545,7 @@ footer{
     margin: 20px 5px 0px 5px;
     heigh: auto;
     border-radius:70px 0px 70px 70px;
-    text-align:center;
+    text-align:left;
   }
   .box2{
     background-color: black;
@@ -587,21 +555,57 @@ footer{
     max-width: 1200px;
     margin: 20px 5px 0px 5px;
     border-radius:0px 70px 70px 70px;
-    text-align:center;
+    text-align:left;
   }
-  #map {
-    width: auto;
-    height: 200px;
-    margin:auto
+}
+
+// Schermi medio-piccoli (almeno 576px)
+@media screen and (min-width: 576px) {
+  #headline {
+    text-align: center;
+    padding: 10px;
   }
-  .fot{
-    display: block;
-    margin: 10px auto;
-  }
-  #testofooter{
-    max-width: 500px;
-    font-size: 12px;
+  #intestazione{
+    text-align: center;
     margin:auto;
+    float:none;
+  }
+  .bandiere {
+    width: 60px;
+    height: 40px;
+    float:none;
+    margin: 15px 0px 15px 20px;
+  }
+  #box1{
+    min-width: 100px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+    background-color: rgba(0, 0, 0, 0.60);
+    border-radius: 150px;
+    padding: 30px
+  }
+  .tastino{
+    display: inline-block;
+    padding: 10px;
+    color: white;
+  }
+  .tastino i{
+    font-size:25px;
+  }
+  .tastino h3{
+    font-size: 10px;
+  }
+  #fotoclasse{
+    width: 100%;
+    height: 200px;
+    border-radius:0px 70px 70px 70px;
+  }
+  #videoyt{
+    border-radius:70px 0px 70px 70px;
+    width: 500px;
+    height: 315px;
   }
 }
 @media screen and 
