@@ -342,7 +342,7 @@ h3{
   width: 400px;
   margin:auto;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .elemento1{
     display: block;
     margin:auto;
